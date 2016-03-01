@@ -1,0 +1,19 @@
+Behavior                              Input       Output
+
+Word starts with a vowel (a,e,i,o,u),  "air"       "airay"
+add "ay" to the end
+
+Word starts with a single consonant    "hot"       "othay"
+(including y), move to the end &
+add "ay"
+
+Word starts with multiple consonants   "sweet"     "eetsway"
+(including y), move all consonants to
+the end & add "ay"
+
+1st or 2nd consonant is (including y)  "squawk"    "awksquay"
+"qu", move all consonants and "u" to
+the end & add "ay"
+
+Script will run through entire   "old bird yawns" "olday irdbay awnsyay"
+sentence, not just one word
